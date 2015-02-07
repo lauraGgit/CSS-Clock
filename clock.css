@@ -1,0 +1,53 @@
+.circle {
+    height: 360px;
+    width: 360px;
+    border-radius: 180px;
+    background-image: linear-gradient(bottom, rgb(209,209,209) 37%, rgb(217,217,217) 70%);
+background-image: -o-linear-gradient(bottom, rgb(209,209,209) 37%, rgb(217,217,217) 70%);
+background-image: -moz-linear-gradient(bottom, rgb(209,209,209) 37%, rgb(217,217,217) 70%);
+background-image: -webkit-linear-gradient(bottom, rgb(209,209,209) 37%, rgb(217,217,217) 70%);
+background-image: -ms-linear-gradient(bottom, rgb(209,209,209) 37%, rgb(217,217,217) 70%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.37, rgb(209,209,209)),
+	color-stop(0.7, rgb(217,217,217))
+);
+position: relative;
+
+
+}
+
+.circle div {
+
+}
+
+.hour-hand {
+    height: 120px;
+    background: #444;
+    width: 6px;
+    position: absolute;
+    left: 180px;
+    top: 60px;
+    
+}
+.minute-hand {
+    height: 160px;
+    background: #444;
+    width: 2px;
+    position: absolute;
+    left: 180px;
+    top: 20px;
+    border-radius: 2px;
+}
+
+.second-hand {
+    height: 160px;
+    background: #444;
+    width: 1px;
+    position: absolute;
+    left: 180px;
+    top: 20px;
+}
