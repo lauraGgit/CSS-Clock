@@ -5,7 +5,7 @@ $(document).ready(function(){
     var minutes = date.getMinutes();
     var seconds = date.getSeconds();
     if (hours >= 12){
-        hours -= 12
+        hours -= 12;
     }
     if (hours === 0) {
         hours = 12;
@@ -44,7 +44,7 @@ $(document).ready(function(){
         mAngle += 6;
         newMin = 'rotate('+mAngle+'deg)';
         $('.minute-hand').css('transform', newMin);
-        hAngle +=.5;
+        hAngle += 0.5;
         newHr = 'rotate('+hAngle+'deg)';
         $('.hour-hand').css('transform', newHr);
         sAngle = 0;
