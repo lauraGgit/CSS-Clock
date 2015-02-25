@@ -1,6 +1,4 @@
-## JQuery and CSS Analog Clock
-This is an analog clock that uses JQuery to build working CSS clock. 
+## JQuery and CSS Analogue Clock
+This is a Javascript Clock that uses JQuery to build a pure CSS analogue clock, based off of the Date oject.
 
-It uses the JS Date oject to generate the time and a timeout and 2d CSS transformations to move the clock hands.
-
-See an example at http://clock.lgerhardt.com/
+See an example at http://css.lgerhardt.com/
